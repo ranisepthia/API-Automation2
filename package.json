@@ -1,0 +1,20 @@
+{
+  "name": "api-automation2",
+  "version": "1.0.0",
+  "description": "api automation2",
+  "main": "index.js",
+  "directories": {
+    "test": "npx mocha"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "rani",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "prompt-sync": "^4.2.0",
+    "supertest": "^6.3.3"
+  }
+}
